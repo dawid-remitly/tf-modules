@@ -3,5 +3,5 @@ variable "input" {
 }
 
 output "output" {
-  value = "mocking-io 1.0.0 your output ${var.input}"
+  value = "mocking-io 1.0.1 your output ${var.input}"
 }
