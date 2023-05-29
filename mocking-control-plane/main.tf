@@ -16,7 +16,7 @@ variable "admins_role" {
 
 output "info" {
   value = {
-    module_version: "2.0.0"
+    module_version: "2.0.1"
     domain: var.domain,
     cluster_name: var.cluster_name,
     viewers_role: var.viewers_role,

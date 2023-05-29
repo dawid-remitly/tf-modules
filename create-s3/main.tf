@@ -20,5 +20,5 @@ resource "aws_s3_bucket" "this" {
 }
 
 output "output" {
-  value = "create-s3 2.0.0 - created s3 bucket ${var.name}"
+  value = "create-s3 2.0.1 - created s3 bucket ${var.name}"
 }
