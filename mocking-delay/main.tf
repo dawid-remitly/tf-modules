@@ -20,5 +20,5 @@ resource "time_sleep" "this" {
 }
 
 output "output" {
-  value = "mocking-delay 2.0.1 your output ${var.input}"
+  value = "mocking-delay 2.0.2 your output ${var.input}"
 }

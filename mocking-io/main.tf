@@ -13,13 +13,13 @@ variable "input3" {
 }
 
 output "output" {
-  value = "mocking-io 2.0.1 your output ${var.input}"
+  value = "mocking-io 2.0.2 your output ${var.input}"
 }
 
 output "output2" {
-  value = "mocking-io 2.0.1 input2 ${var.input2}"
+  value = "mocking-io 2.0.2 input2 ${var.input2}"
 }
 
 output "output3" {
-  value = "mocking-io 2.0.1 input3 ${var.input3}"
+  value = "mocking-io 2.0.2 input3 ${var.input3}"
 }
